@@ -1,0 +1,38 @@
+---
+layout: full
+homepage: true
+permalink: index.html
+disable_anchors: true
+---
+
+<link rel="stylesheet" type="text/css" href="dist/swagger-ui.css" />
+
+<div class="col-lg-6" markdown="1">
+  <h1>Title</h1>
+    <div>a<br>b<br>c<br>d<br>e<br>f</div>
+    <div id="swagger-ui" style="width: 50%;"></div>
+    <script src="dist/swagger-ui-bundle.js" charset="UTF-8"> </script>
+    <script src="dist/swagger-ui-standalone-preset.js" charset="UTF-8"> </script>
+    <script>
+      window.onload = function() {
+        window.ui = SwaggerUIBundle({
+          url: "swagger_files/openapi.json",
+          dom_id: '#swagger-ui',
+          deepLinking: true,
+          supportedSubmitMethods: [],
+          presets: [
+            SwaggerUIBundle.presets.apis,
+            SwaggerUIStandalonePreset
+          ],
+          plugins: [
+            SwaggerUIBundle.plugins.DownloadUrl
+          ],
+          layout: "StandaloneLayout"
+          });
+      };
+    </script>
+</div>
+<div class="col-lg-6" markdown="1">
+  ## Doc
+  * Docs build with [jekyll-docs-theme](https://github.com/allejo/jekyll-docs-theme) by allejo
+</div>
