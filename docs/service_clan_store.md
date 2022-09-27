@@ -2,10 +2,10 @@
 layout: page
 permalink: doc_clan_store.html
 show_in_menu: False
-title: Doc ms_clan_store
+title: Documentation Clan Store Service
 ---
 
-# MS_CLAN_STORE
+# REST API
 
 <link rel="stylesheet" type="text/css" href="swagger_res/swagger-ui.css" />
 <script src="swagger_res/swagger-ui-bundle.js" charset="UTF-8"> </script>
