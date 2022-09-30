@@ -15,4 +15,4 @@ title: Documentation
   - [Documentation](https://wot-analytics.github.io/Project_CW_Analysis/doc_clan_store.html)
 - ms_clan_manager
   - [GitHub](https://github.com/WoT-Analytics/ms_clan_manager)
-  - [Documentation]()
+  - [Documentation](https://wot-analytics.github.io/Project_CW_Analysis/doc_clan_manager.html)
